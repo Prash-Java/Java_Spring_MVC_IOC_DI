@@ -1,20 +1,23 @@
-package com.java.spring.mvc;
+package com.java.spring.mvc.list;
+
+import java.util.List;
 
 public class Employee {
-	private int id;
+
 	private String name;
+	private List<String> profiles;
 	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public List<String> getProfiles() {
+		return profiles;
+	}
+	public void setProfiles(List<String> profiles) {
+		this.profiles = profiles;
 	}
 
 }
