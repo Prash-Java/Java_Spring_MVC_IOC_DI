@@ -12,6 +12,7 @@ public class TestEmployee {
 		Employee employee = (Employee)context.getBean("employee");
 		System.out.println(employee.getName());
 		System.out.println(employee.getProfiles());
+		//This below instruction confirms that List interface by default is implemented by ArrayList
 		System.out.println(employee.getProfiles().getClass());
 
 	}
